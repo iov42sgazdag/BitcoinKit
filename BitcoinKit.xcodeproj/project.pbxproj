@@ -216,6 +216,8 @@
 		CFA290702101CDCA001A1BAB /* ScriptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA2906F2101CDCA001A1BAB /* ScriptTests.swift */; };
 		CFA290722102B635001A1BAB /* ScriptMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA290712102B635001A1BAB /* ScriptMachine.swift */; };
 		CFA290742102B650001A1BAB /* ScriptMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA290732102B650001A1BAB /* ScriptMachineTests.swift */; };
+		EFA64AF12292DB6B00A066A7 /* BitcoinKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EFA64AF02292DB6B00A066A7 /* BitcoinKit.podspec */; };
+		EFA64AF22292DB6B00A066A7 /* BitcoinKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EFA64AF02292DB6B00A066A7 /* BitcoinKit.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -443,6 +445,7 @@
 		CFA2906F2101CDCA001A1BAB /* ScriptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptTests.swift; sourceTree = "<group>"; };
 		CFA290712102B635001A1BAB /* ScriptMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptMachine.swift; sourceTree = "<group>"; };
 		CFA290732102B650001A1BAB /* ScriptMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptMachineTests.swift; sourceTree = "<group>"; };
+		EFA64AF02292DB6B00A066A7 /* BitcoinKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BitcoinKit.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -532,6 +535,7 @@
 		147494C9201F9A29006D1CF8 /* BitcoinKit */ = {
 			isa = PBXGroup;
 			children = (
+				EFA64AF02292DB6B00A066A7 /* BitcoinKit.podspec */,
 				292AEA3C2112EB190012D7E5 /* Core */,
 				296ADC1E2112EBAD007EE5C7 /* Scripts */,
 				296ADC1F2112EBF4007EE5C7 /* Wallet */,
@@ -976,6 +980,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA64AF12292DB6B00A066A7 /* BitcoinKit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -983,6 +988,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA64AF22292DB6B00A066A7 /* BitcoinKit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
